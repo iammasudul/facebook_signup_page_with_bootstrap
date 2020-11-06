@@ -1,0 +1,130 @@
+
+header{
+  background: #4867AA;
+  /* margin: auto;
+  overflow: hidden;
+  padding: 75px 0; */
+}
+.col-md-2 img{
+  margin-top: 30px;
+  /* margin-left: -10; */
+}
+.form{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 120px;
+}
+.group{
+  display: inline-block;
+  margin-top: 10px;
+}
+.group label{
+  color: white;
+}
+input[type='email']{
+
+}
+input[type='password']{
+
+}
+.group span{
+  color: #818cc2;
+  margin-left: 5px;
+}
+input[type='submit']{
+  /* top: 30%;
+  right: 115px;
+  position: absolute; */
+  height: 30px;
+  width: 60px;
+  border: none;
+  background: #6973a6;
+  color: white;
+  box-shadow: 1px 3px 3px 1px black;
+}
+
+.content{
+  background: #DBD9DC;
+}
+.content h3{
+   margin-top: 80px; 
+   font-weight: bold;
+}
+.content ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+.content ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.content ul li i{
+  font-size: 30px;
+  
+}
+.content ul li p{
+  display: inline-block;
+  margin: 0px;
+  margin-left: 10px;
+}
+.content ul li i p a{
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+h2 {
+  margin-top: 40px;
+}
+.user-name{
+  width: 49.5%;
+  display: inline-block;
+}
+.form-group input::placeholder{
+  color: gray;
+  font-weight: 700px;
+}
+.date{
+  padding: 1% 1.5%;
+  border-radius: 2px;
+  border: 0.5px solid lightblue;
+}
+.why-birthday{
+  font-size: 10px;
+  color: #345696;
+  margin-left: 5px;
+}
+.terms-conditions{
+  margin-top: 4%;
+  width: 329px;
+  font-size: 13px;
+  color: #838383;
+  margin-bottom: 5%;
+}
+.blue_text{
+  color: #375592;
+  font-size: 13px;
+}
+span{
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(61, 60, 60);
+}
+.btn-custom{
+  margin-top: 10px;
+  background: #537D2B;
+  padding: 10px 60px;
+  font-size: 20px;
+  font-weight: 700;
+}
+input[type='date']{
+  margin-bottom: 10px;
+}
+hr{
+  border-top: 1px solid gray;
+  width: 75%;
+  margin-left: 0;
+}
